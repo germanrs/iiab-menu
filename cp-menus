@@ -40,7 +40,8 @@ fi
 
 # copy sample index file if none exists
 if [ ! -e $MENUDIR/index.html ]; then
-    cp samples/sampler.html $MENUDIR/index.html
+    #cp samples/sampler.html $MENUDIR/index.html
+    cp samples/olpcrd.html $MENUDIR/index.html
 fi
 
 # copy sample index file if none exists in home
